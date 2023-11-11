@@ -1,0 +1,37 @@
+// Noticias
+
+.articulo1 h2{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  .articulo1 h3{
+    font-size: 30px;
+  }
+  
+  .articulo1 li{
+    list-style-type: none;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .mi-articulo{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .mi-articulo h2{
+    padding-bottom: 15px;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  
+  .mi-articulo p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }

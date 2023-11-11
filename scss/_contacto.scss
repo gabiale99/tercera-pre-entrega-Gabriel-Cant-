@@ -1,0 +1,80 @@
+// Contacto
+
+.contenido-contacto {
+    padding: 20px;
+  
+    h2{
+      font-size: 3rem;
+      margin-top: 20px;
+    }
+  
+    p{
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+  
+    label{
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+  
+    input[type="text"],
+    input[type="email"],
+    input[type="contraseña"],
+    textarea{
+      width: 90%;
+      padding: 16px;
+      margin-bottom: 10px;
+      border: none;
+      outline: none;
+      border: 2px solid $nav;
+      font-size: 1rem;
+    }
+  
+    textarea{
+      resize: none;
+    }
+  
+    .checkbox-campo{
+      display: flex;
+      align-items: center;
+    }
+  
+    input[type="checkbox"]{
+      margin-right: 100px;
+      padding-top: 0;
+    }
+  
+    .botones{
+      margin-top: 20px;
+    }
+  
+    button{
+      background-color: $botones;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      
+          &:hover{
+          background-color: #fff;
+          border: 1px solid #F94C10;
+          color: $botones;
+          }
+      }
+  
+    button[type="reset"]{
+      background-color: #F94C10;
+      margin-left: 10px;
+  
+          &:hover{
+          background-color: #fff;
+          margin-left: 10px;
+          }
+      }
+  }
+  

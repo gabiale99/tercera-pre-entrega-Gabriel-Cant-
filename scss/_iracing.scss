@@ -1,0 +1,40 @@
+// iRacing
+
+.mi-header{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    background-color: $nav;
+  
+      nav ul li{
+          display: flex;
+          padding-top: 10px;
+      }
+  }
+  .mi-tabla h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .mi-tabla table{
+    margin-left: 2rem;
+  }
+  
+  .mi-tabla th{
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: $botones;
+  }
+  
+  .mi-tabla tr{
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  

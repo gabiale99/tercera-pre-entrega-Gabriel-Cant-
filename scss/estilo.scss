@@ -37,6 +37,7 @@ body {
 .mi_header {
   background-color: $nav;
   padding: 1rem;
+  
     a {
         margin-left: 5rem;
         color: #fff;
@@ -48,6 +49,12 @@ body {
             border-radius: 5px;
             color: $nav;
         }
+      .navbar-toggler {
+        border: none !important;
+      }
+      .navbar-toggler:focus {
+        border: none !important;
+      }
     }
     .nav_noticia {
     color: #C70039;
@@ -256,10 +263,14 @@ footer{
     grid-template-columns: 1fr;
 
         aside{
+        margin-right: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
+        aside img {
+          overflow: hidden;
+        }
 
             a{
                 margin-top: 10px;

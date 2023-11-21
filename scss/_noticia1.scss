@@ -35,3 +35,27 @@
     font-size: 1.5rem;
     line-height: 1.5;
   }
+
+  @media (max-width: 768px){
+    .articulo1 h2 {
+        font-size: 2rem;
+        padding-right: 40px;
+    }
+    .articulo1 h3{
+      padding-right: 40px;
+    }
+    .articulo1 li{
+      padding-right: 40px;
+    }
+    .mi-articulo p {
+      font-size: 1rem;
+      padding-right: 40px;
+    }
+    .media-container img {
+      padding-right: 55px;
+    }
+    .media-container iframe {
+      padding-right: 35px;
+      border-radius: 10px;
+    }
+  }           
